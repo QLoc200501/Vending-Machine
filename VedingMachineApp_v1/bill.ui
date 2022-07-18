@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bill</class>
+ <widget class="QWidget" name="Bill">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>94</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>0</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cascadia Mono Light</family>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Please select payment method!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_QRcode_Barcode">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>101</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>QR/Barcode</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/QRcode_icon.png</normaloff>../icon/QRcode_icon.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Staffcard">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>91</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Staff Card</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/Staff_Card_icon.png</normaloff>../icon/Staff_Card_icon.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_MoMo">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>50</y>
+     <width>81</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>MoMo</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/momo_icon_1.png</normaloff>../icon/momo_icon_1.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>30</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Cancel">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>50</y>
+     <width>71</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../icon/cancel.png</normaloff>../icon/cancel.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>18</width>
+     <height>18</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
